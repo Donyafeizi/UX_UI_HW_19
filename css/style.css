@@ -1,0 +1,74 @@
+.nav li {
+    display: inline;
+}
+
+.button {
+    border: black;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: apointer;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav a{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+body{
+    background-color: #EDCAC2;
+}
+header{
+    background-color: white;
+}
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #EDCAC2;
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 100px 0;
+  font-size: 16px;
+}
+
+
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    gap: 10px;
+    background-color: #EDCAC2;
+    padding: 10px;
+  }
+  
+  .grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+  }
+  .text{
+text-align: center;
+  }
+
+  .footer ul{
+    text-align:justify;
+    display: inline;
+  }
